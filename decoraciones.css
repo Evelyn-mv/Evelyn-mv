@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7b623ddf;
+}
+.menu1 ul{
+   background-color:#ffffff;
+    margin:0 auto;
+    width:100%;   
+    padding:10px;   
+ }
+ .menu1 li{
+    display:inline;   
+    border-right: 1px solid #FFFFFF;   
+    color:#FFFFFF;
+    font-weight:400;
+    padding: 10px;
+ }
+ .menu1 li:hover{
+    background-color:#ffffff;      
+    border-right: 1px solid #ffffff;
+    font-weight:600;
+    text-decoration:underline;
+    cursor:pointer;
+ }  
+
+body { font-family: Arial, sans-serif; padding: 20px; }
+    #cuadro { width: 150px; height: 150px; background: rgb(134, 134, 134); margin-bottom: 20px; }
+    input, select, button { margin: 10px 0; padding: 5px; }
+    #cuadro1 { width: 150px; height: 150px; background: rgb(134, 134, 134); margin-bottom: 20px; }
+    #cuadro2 { width: 150px; height: 150px; background: rgb(134, 134, 134); margin-bottom: 20px; }
+    

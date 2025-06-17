@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="decoraciones.css">
+</head>
+<style>
+  a {
+            display: block;
+            margin: 10px 0;
+            font-size: 20px;
+            text-decoration: none;
+            color: #35260fc8;
+            font-weight: bold; 
+            text-align: center;
+        }
+</style>
+<body>
+    <img src="habitacion3.jpg" width="800" height="350">
+
+    <h2>Colores para pintar los muros</h2>
+
+    <div id="cuadro"></div>
+  <script>
+  const cuadro = document.getElementById("cuadro");
+    cuadro.addEventListener("mouseover", () => {
+      cuadro.style.backgroundColor = "purple"; // Al pasar el mouse, cambia a verde
+    });
+    cuadro.addEventListener("mouseout", () => {
+      cuadro.style.backgroundColor = "gray"; // Al salir, vuelve a gris
+    });
+    </script>
+
+    <div id="cuadro2"></div>
+  <script>
+  const cuadro2 = document.getElementById("cuadro2");
+    cuadro2.addEventListener("mouseover", () => {
+      cuadro2.style.backgroundColor = "pink"; // Al pasar el mouse, cambia a verde
+    });
+    cuadro2.addEventListener("mouseout", () => {
+      cuadro2.style.backgroundColor = "gray"; // Al salir, vuelve a gris
+    });
+    </script>
+
+    <h2>Cama</h2>
+    <p>2 opciones</p>
+    <img src="3cama1.jpg" width="400" height="400">
+    <img src="3cama2.jpg" width="400" height="400">
+
+    <h2>Tocador</h2>
+    <p>2 opciones</p>
+    <img src="3tocador1.jpg" width="400" height="400">
+    <img src="3tocador2.jpg" width="400" height="400">
+
+    <h2>Armario</h2>
+    <p>2 opciones</p>
+    <img src="3armario1.jpg" width="400" height="400">
+    <img src="3armario2.jpg" width="400" height="400">
+
+
+    <a href="decoraciones.html">REGRESAR</a>
+</body>
+</html>
